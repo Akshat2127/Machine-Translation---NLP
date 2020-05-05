@@ -15,3 +15,6 @@ Please refer to the given instructions for setting up a GPU instance for this pr
 - NumPy
 - TensorFlow 1.x
 - Keras 2.x
+
+## Dataset
+We begin by investigating the dataset that will be used to train and evaluate your pipeline.  The most common datasets used for machine translation are from [WMT](http://www.statmt.org/).  However, that will take a long time to train a neural network on.  We'll be using a dataset we created for this project that contains a small vocabulary.  We'll be able to train our model in a reasonable time with this dataset.
